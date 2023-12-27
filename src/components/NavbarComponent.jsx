@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom'
 
 const NavbarComponent = () => {
   return (
-    <nav>
-        <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/certificates">Certificates</Link></li>
+    <nav className='flex justify-between px-24 py-6'>
+        <h1 className='text-2xl font-bold text-primary'>WoraponK</h1>
+        <ul className='flex space-x-4 font-semibold'>
+            <li className='transition-colors hover:text-primary'><Link to="/">Home</Link></li>
+            <li className='transition-colors hover:text-primary'><Link to="/certificates">Certificates</Link></li>
         </ul>
     </nav>
   )
