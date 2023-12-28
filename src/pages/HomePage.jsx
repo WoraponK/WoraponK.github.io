@@ -14,7 +14,7 @@ const HomePage = () => {
           <div className='text-3xl font-semibold max-lg:text-2xl max-sm:text-center max-sm:text-xl'>
             <h2 className='text-4xl font-bold text-primary mb-2 max-lg:text-3xl max-sm:text-2xl'>Hi! I'm Worapon Klabsri</h2>
             <p className='indent-6 max-sm:indent-0'>I'm an undergraduate student majoring in Software Engineering at University of Phayao.</p>
-            <p className='indent-6 max-sm:indent-0'>Ready to learn new things about software development, and excited to join your team.</p>
+            <p className='indent-6 max-sm:indent-0'>Ready to learn new things about front-end development, and excited to join your team.</p>
           </div>
           <img src="images/woraponk-nobg.png" alt="woraponk-profile" className='w-[480px] max-lg:w-[360px]' />
         </div>
