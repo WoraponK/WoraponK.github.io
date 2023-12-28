@@ -46,6 +46,7 @@ const NavbarComponent = () => {
           <ul className='flex space-x-4 font-semibold translate-y-1'>
               <li className='transition-colors hover:text-primary'><Link to="/">Home</Link></li>
               <li className='transition-colors hover:text-primary'><Link to="/about">About</Link></li>
+              <li className='transition-colors hover:text-primary'><Link to="/portfolio">Portfolio</Link></li>
               <li className='transition-colors hover:text-primary'><Link to="/certificates">Certificates</Link></li>
           </ul>
       </nav>

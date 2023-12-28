@@ -8,6 +8,7 @@ import FooterComponent from "./components/FooterComponent"
 import HomePage from "./pages/HomePage"
 import CertificatePage from "./pages/CertificatePage"
 import AboutPage from "./pages/AboutPage"
+import PortfolioPage from "./pages/PortfolioPage"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="certificates" element={<CertificatePage />} />
           <Route path="about" element={<AboutPage />} />
+          <Route path="portfolio" element={<PortfolioPage />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       <FooterComponent />

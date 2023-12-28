@@ -5,15 +5,10 @@ const FooterComponent = () => {
   return (
     <footer className="footer footer-center p-10 bg-base-content text-base-100">
       <nav className="grid grid-flow-col gap-4">
-        <Link to="/" className="link link-hover">
-          Home
-        </Link>
-        <Link to="/about" className="link link-hover">
-          About
-        </Link>
-        <Link to="/certificates" className="link link-hover">
-          Certificates
-        </Link>
+        <Link to="/" className="link link-hover">Home</Link>
+        <Link to="/about" className="link link-hover">About</Link>
+        <Link to="/portfolio" className="link link-hover">Portfolio</Link>
+        <Link to="/certificates" className="link link-hover">Certificates</Link>
       </nav>
       <nav>
         <div className="grid grid-flow-col gap-4">
