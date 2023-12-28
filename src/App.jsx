@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route, Navigate } from "react-router-dom"
 
 // Components
 import NavbarComponent from "./components/NavbarComponent"
@@ -7,7 +7,7 @@ import FooterComponent from "./components/FooterComponent"
 // Pages
 import HomePage from "./pages/HomePage"
 import CertificatePage from "./pages/CertificatePage"
-import NotFoundPage from "./pages/NotFoundPage"
+import AboutPage from "./pages/AboutPage"
 
 function App() {
 
@@ -17,7 +17,8 @@ function App() {
         <Routes>
           <Route index element={<HomePage />} />
           <Route path="certificates" element={<CertificatePage />} />
-          <Route path="*" element={<NotFoundPage />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       <FooterComponent />
     </>
