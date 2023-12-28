@@ -26,6 +26,9 @@ const NavbarComponent = () => {
   }
 
   useEffect(() => {
+    window.addEventListener('scroll', handleScrollNav);
+    window.addEventListener('scroll', handleScrollToTop);
+
     return () => {
       window.addEventListener('scroll', handleScrollNav);
       window.addEventListener('scroll', handleScrollToTop);
