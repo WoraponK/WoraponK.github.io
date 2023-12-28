@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 
+import WorkComponent from '../components/WorkComponent';
+
 const HomePage = () => {
   useEffect(() => {
     document.title = 'Home - WoraponK';
@@ -17,14 +19,7 @@ const HomePage = () => {
           <img src="images/woraponk-nobg.png" alt="woraponk-profile" className='w-[480px] grayscale max-lg:w-[360px]' />
         </div>
       </section>
-      <section className='bg-primary grid place-items-center py-8'>
-        <div className='flex items-center w-3/4 max-lg:w-full max-lg:px-4'>
-          <h2 className='text-6xl font-bold text-base-100'>WORKS</h2>
-          <div>
-
-          </div>
-        </div>
-      </section>
+      <WorkComponent />
     </>
   )
 }
