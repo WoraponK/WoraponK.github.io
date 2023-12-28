@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-import WorkComponent from '../components/WorkComponent';
+import ProjectComponent from '../components/ProjectComponent';
 
 const HomePage = () => {
   useEffect(() => {
@@ -19,7 +19,7 @@ const HomePage = () => {
           <img src="images/woraponk-nobg.png" alt="woraponk-profile" className='w-[480px] grayscale max-lg:w-[360px]' />
         </div>
       </section>
-      <WorkComponent />
+      <ProjectComponent />
     </>
   )
 }

@@ -1,24 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const WorkComponent = () => {
+const ProjectComponent = () => {
   return (
     <section className="bg-primary grid place-items-center py-12">
       <div className="flex flex-col w-3/4 space-y-2 max-xl:w-full max-xl:px-8 max-lg:px-4">
-        <h2 className="text-6xl font-bold text-base-100">WORKS</h2>
+        <h2 className="text-6xl font-bold text-base-100">PROJECTS</h2>
         <div className="flex flex-col divide-y-2">
           <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-8 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
             <div className="w-full aspect-video overflow-hidden rounded-lg">
-              <img className="w-full" src="images/works/ggblog.png" />
+              <img className="w-full" src="images/projects/ggblog.png" />
             </div>
             <div className="space-y-4 flex flex-col">
               <h3 className="font-semibold text-4xl"># GGBlog</h3>
               <p className="text-xl">
-                This website is the project for practice frontend development
-                and using HTML CSS and JavaScript no API or anything about
-                backend. I get inspired from GamingDose and ChatchawanDew (from
+                This website is the project for practice frontend development. I get inspired from GamingDose and ChatchawanDew (from
                 GitHub).
               </p>
+              <p className="text-xl"><span className="font-semibold">Built with: </span>HTML, CSS, JavaScript</p>
               <Link
                 to="https://github.com/WoraponK/ggblog-project"
                 target="_blank"
@@ -41,13 +40,14 @@ const WorkComponent = () => {
           </div>
           <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-8 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
             <div className="w-full aspect-video overflow-hidden rounded-lg">
-              <img className="w-full" src="images/works/aboutmoney.png" />
+              <img className="w-full" src="images/projects/aboutmoney.png" />
             </div>
             <div className="space-y-4 flex flex-col">
               <h3 className="font-semibold text-4xl"># aboutMoney</h3>
               <p className="text-xl">
-                This project is a CRUD Web Application for store income and expenses datas. Created by Angular and fetch API from database. And responsive page for easy to use and set minimal colors
+                This project is a CRUD Web Application for store income and expenses datas.
               </p>
+              <p className="text-xl"><span className="font-semibold">Built with: </span>Angular, TailwindCSS, Express, MySQL</p>
               <Link
                 to="https://github.com/WoraponK/aboutmoney-angular"
                 target="_blank"
@@ -70,13 +70,14 @@ const WorkComponent = () => {
           </div>
           <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-8 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
             <div className="w-full aspect-video overflow-hidden rounded-lg">
-              <img className="h-full" src="images/works/wouldurather.png" />
+              <img className="h-full" src="images/projects/wouldurather.png" />
             </div>
             <div className="space-y-4 flex flex-col">
               <h3 className="font-semibold text-4xl"># WouldYouRather</h3>
               <p className="text-xl">
-                This is a website about would you rather? I saw a video from Youtube and got the idea for to make it, and I created by VueJS2(CDN), Express, and MySQL
+                This is a website about would you rather? I saw a video from Youtube and got the idea for to make it.
               </p>
+              <p className="text-xl"><span className="font-semibold">Built with: </span>Vue, TailwindCSS, Express, MySQL</p>
               <Link
                 to="https://github.com/WoraponK/would-you-rather"
                 target="_blank"
@@ -99,13 +100,14 @@ const WorkComponent = () => {
           </div>
           <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-8 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
             <div className="w-full aspect-video overflow-hidden rounded-lg">
-              <img className="h-full" src="images/works/crudmanagement.jpg" />
+              <img className="h-full" src="images/projects/crudmanagement.jpg" />
             </div>
             <div className="space-y-4 flex flex-col">
               <h3 className="font-semibold text-4xl"># CRUD Student Management</h3>
               <p className="text-xl">
-                This is a website about student management, It can CRUD (Create, Read, Update, Delete) data of students, Created by VueJS2(CDN), MySQL. 
+                This is a website about student management, It can CRUD (Create, Read, Update, Delete) data of students.
               </p>
+              <p className="text-xl"><span className="font-semibold">Built with: </span>Vue, TailwindCSS, SweetAlert, Express, MySQL</p>
               <Link
                 to="https://github.com/WoraponK/crud-student-management"
                 target="_blank"
@@ -128,13 +130,14 @@ const WorkComponent = () => {
           </div>
           <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-8 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
             <div className="w-full aspect-video overflow-hidden rounded-lg">
-              <img className="w-full" src="images/works/regblog.png" />
+              <img className="w-full" src="images/projects/regblog.png" />
             </div>
             <div className="space-y-4 flex flex-col">
               <h3 className="font-semibold text-4xl"># REG Blog UP new designed</h3>
               <p className="text-xl">
-              I created a new design for reg blog page of University of Phayo And main aim to create new design are Navbar, Blog title bar, Fonts size, and Share button. 
+              I created a new design for reg blog page of University of Phayo And main aim to create new design are navbar, blog title bar, font size, and share button. 
               </p>
+              <p className="text-xl"><span className="font-semibold">Built with: </span>HTML, CSS, JavaScript</p>
               <Link
                 to="https://github.com/WoraponK/reg-blog-news_UP"
                 target="_blank"
@@ -161,4 +164,4 @@ const WorkComponent = () => {
   );
 };
 
-export default WorkComponent;
+export default ProjectComponent;
