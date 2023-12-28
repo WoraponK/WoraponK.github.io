@@ -6,7 +6,7 @@ const NavbarComponent = () => {
   const [stickyTop, setStickyTop] = useState(false);
 
   const handleScrollNav = () => {
-    if(window.scrollY >= 20) {
+    if(window.scrollY >= 50) {
       setStickyNav(true);
     } else {
       setStickyNav(false);
