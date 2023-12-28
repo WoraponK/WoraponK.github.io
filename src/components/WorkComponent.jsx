@@ -7,7 +7,7 @@ const WorkComponent = () => {
       <div className="flex flex-col w-3/4 space-y-2 max-xl:w-full max-xl:px-8 max-lg:px-4">
         <h2 className="text-6xl font-bold text-base-100">WORKS</h2>
         <div className="flex flex-col divide-y-2">
-          <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-4 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
+          <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-8 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
             <div className="w-full aspect-video overflow-hidden rounded-lg">
               <img className="w-full" src="images/works/ggblog.png" />
             </div>
@@ -39,7 +39,7 @@ const WorkComponent = () => {
               </Link>
             </div>
           </div>
-          <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-4 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
+          <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-8 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
             <div className="w-full aspect-video overflow-hidden rounded-lg">
               <img className="w-full" src="images/works/aboutmoney.png" />
             </div>
@@ -68,7 +68,7 @@ const WorkComponent = () => {
               </Link>
             </div>
           </div>
-          <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-4 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
+          <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-8 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
             <div className="w-full aspect-video overflow-hidden rounded-lg">
               <img className="h-full" src="images/works/wouldurather.png" />
             </div>
@@ -97,7 +97,7 @@ const WorkComponent = () => {
               </Link>
             </div>
           </div>
-          <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-4 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
+          <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-8 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
             <div className="w-full aspect-video overflow-hidden rounded-lg">
               <img className="h-full" src="images/works/crudmanagement.jpg" />
             </div>
@@ -126,7 +126,7 @@ const WorkComponent = () => {
               </Link>
             </div>
           </div>
-          <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-4 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
+          <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-8 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
             <div className="w-full aspect-video overflow-hidden rounded-lg">
               <img className="w-full" src="images/works/regblog.png" />
             </div>
