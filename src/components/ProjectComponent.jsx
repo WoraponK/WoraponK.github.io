@@ -5,7 +5,7 @@ const ProjectComponent = () => {
   return (
     <section className="bg-primary grid place-items-center py-12">
       <div className="flex flex-col w-3/4 space-y-2 max-xl:w-full max-xl:px-8 max-lg:px-4">
-        <h2 className="text-6xl font-bold text-base-100">PROJECTS</h2>
+        <h2 className="text-6xl font-bold text-base-100 max-sm:text-4xl">PROJECTS</h2>
         <div className="flex flex-col divide-y-2">
           <div className="text-base-100 py-8 grid grid-cols-[60%_40%] space-x-8 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:space-x-0 max-sm:space-y-4">
             <div className="w-full aspect-video overflow-hidden rounded-lg">
